@@ -1,13 +1,9 @@
-import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/hero/HeroSection";
 
 export default function Home() {
   return (
-    <main className='min-h-screen flex flex-1 bg-[#0c070f]'>
-      {/* Container */}
-      <div className='border-2 flex flex-col flex-1'>
-        {/* NAV SMALL DEVICES */}
-        <Navbar />
-      </div>
+    <main className=''>
+      <HeroSection/>
     </main>
   )
 }
